@@ -108,3 +108,4 @@ cd kustomize/overlays/dev
 kustomize edit set image app=123456789.dkr.ecr.us-east-1.amazonaws.com/k8s-ci-cd-app:v1.0.0
 kubectl apply -k .
 ```
+
